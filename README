@@ -1,0 +1,19 @@
+StickyNotes is a simple php application that allows users to share virtual sticky notes.
+
+This system uses a hash comparison to ensure that users don't overwrite each others saves. If the hases don't match, it outputs the diff.
+
+Be sure to lock this off with an .htaccess password.
+
+Features:
+	Colored Sticky Notes
+	Automatic Category Coloring
+	Not Sticky Feature
+
+Examples:
+	Straightforward 	— Hello world.
+	Category 		— Welcome:Hellow World.
+	Ignore (Not Sticky)	— !Hellow World.
+Technical Format:
+	[!][<Category>:]<Text>
+
+The CSS and html5 is from this demo: http://net.tutsplus.com/articles/news/create-a-sticky-note-effect-in-5-easy-steps-with-css3-and-html5/
